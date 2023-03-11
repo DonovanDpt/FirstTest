@@ -1,0 +1,180 @@
+/*
+Nom du thème :
+Auteur de dernière mise à jour :
+Date de dernière mise à jour : 
+*/
+
+@font-face {
+    font-family: 'asiasushibold' ;
+    src: url(../fonts/asiasushibold-gx3pp-webfont.woff),
+        url(../fonts/asiasushibold-gx3pp-webfont.woff2);
+    font-weight: normal;
+    font-style: normal;
+}
+
+hr{
+    clear: both;
+}
+
+/*ICI LA BOX DE L'EN-TETE DU SITE*/
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+/*ICI LE LOGO DU SITE*/
+.divlogo{
+    margin-right: auto;
+    margin-left: 20px;
+    margin-bottom: 40px;
+}
+
+#ImgLogo{
+    justify-content: left;
+    border-radius: 50%;
+    width: 150px;
+    margin-top: 30px;
+}
+
+/*ICI LE TITRE DU SITE*/
+.titremanga{
+    justify-content: center;
+    padding: auto;
+    margin-right: auto;
+    font-family:'asiasushibold' ;
+    font-size: 50px;
+    background: -webkit-linear-gradient(33deg, rgba(63,94,251,1) 0%, rgba(193,129,129,1) 49%, rgba(252,70,107,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/*ICI L'AVATAR DU PROFIL*/
+.containeravatar{
+    display: flex;
+    justify-content: right;
+    margin-right: 40px;
+}
+
+.divpseudo{
+    margin-top: 50px;
+    margin-left: 10px;
+    justify-content: right;
+}
+
+.divavatar{
+    margin-top: 50px;
+}
+
+#avatar{
+    
+    width: 80px;
+    border-radius: 100%;
+}
+
+body{
+    background-image: url(https://png.pngtree.com/background/20210710/original/pngtree-beautiful-gradient-color-cloud-background-picture-image_979879.jpg);
+    background-size: 100%;
+}
+
+/*NAVIGATION*/
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+}
+
+nav{
+    text-align: center;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    background: rgb(238,174,202);
+    background: linear-gradient(90deg, rgba(238,174,202,1) 23%, rgba(196,180,216,1) 48%, rgba(148,187,233,1) 88%);
+    padding: 10px 40px;
+    margin: 50px;
+    border-radius: 20px;
+}
+
+nav ul li a:hover{
+    background: rgb(63,94,251);
+    background: linear-gradient(90deg, rgba(63,94,251,1) 0%, rgba(140,84,192,1) 49%, rgba(252,70,107,1) 100%);
+}
+
+
+
+.divmangactus{
+    font-family:'asiasushibold' ;
+    font-size: 30px;
+    background: -webkit-linear-gradient(rgba(238,174,202,1) 25%, rgba(97,141,210,1) 50%, rgba(150,198,255,1) 75%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-left: 50px;
+}
+
+/*ARTICLE 1*/
+.article1{
+    display: flex;
+    flex-direction: row;
+    padding-left: 100px;
+}
+
+.textarticle{
+    width: 800px;
+    padding: auto;
+    margin: auto;
+}
+
+
+#imgarticle1{
+    width: 500px;
+}
+
+/*ARTICLE 2*/
+.article2{
+    display: flex;
+    flex-direction: row-reverse;
+    padding-right: 100px;
+    padding-bottom: 100px;
+}
+
+.textearticle2{
+    width: 800px;
+    padding-top: auto;
+    margin: auto;
+}
+
+
+#imgarticle2{
+    width: 500px;
+}
+
+/*ARTICLE 3*/
+.article3{
+    display: flex;
+    padding-left: 100px;
+}
+
+#imgarticle3{
+    width: 500px;
+}
+
+.divtitre{
+    padding-left: 100px;
+    font-family:'asiasushibold' ;
+    background: -webkit-linear-gradient(90deg, rgba(86,83,123,1) 0%, rgba(127,127,180,1) 35%, rgba(0,212,255,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#divtitre2{
+    text-align: right;
+    font-family:'asiasushibold' ;
+    padding-right: 100px;
+    padding-top: 100px;
+    background: -webkit-linear-gradient(90deg, rgba(86,83,123,1) 0%, rgba(127,127,180,1) 35%, rgba(0,212,255,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
